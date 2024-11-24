@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" ondragstart="return false">
+ 
+<head>
+      <meta charset="UTF-8">
+      <meta name="Keywords" content="">
+      <meta name="Description" content="">
+      <title>my program</title>
+ 
+      <style type="text/css">
+            * {
+                  margin: 0;
+                  padding: 0;
+            }
+ 
+            body {
+                  background: #222;
+                  overflow: hidden;
+                  user-select: none;
+ 
+            }
+ 
+            @keyframes rotate {
+                  100% {
+                        transform: rotateY(360deg);
+                  }
+            }
+ 
+            .perspective {
+                  perspective: 600px;
+            }
+ 
+            .wrap {
+                  /* 3d */
+                  width: 135px;
+                  height: 240px;
+                  margin: 100px auto;
+                  position: relative;
+                  transform: rotateX(-20deg) rotateY(0deg);
+                  transform-style: preserve-3d;
+ 
+            }
+ 
+            .wrap img {
+                  display: block;
+                  position: absolute;
+                  width: 100%;
+                  height: 100%;
+                  transform: rotateY(0deg) translateZ(0px);
+                  background: transparent;
+                  box-shadow: 0 0 4px #fff;
+                  border-radius: 5px;
+            }
+ 
+            .wrap p {
+                  width: 1200px;
+                  height: 1200px;
+                  background: -webkit-radial-gradient(center center, 600px 600px, rgba(122, 122, 122, .5), rgba(0, 0, 0, 0));
+                  position: absolute;
+                  border-radius: 50%;
+                  left: 50%;
+                  top: 100%;
+                  margin-left: -600px;
+                  margin-top: -600px;
+                  transform: rotateX(90deg);
+ 
+            }
+      </style>
+</head>
+ 
+<body>
+      <div class="perspective">
+            <div class="wrap" id="imgwrap">
+                  <img class="f1" src="img1.jpg" />
+                  <img class="f1" src="img2.jpg" />
+                  <img class="f1" src="img3.jpg" />
+                  <img class="f1" src="img14.jpg" />
+                  <img class="f1" src="img15.jpg" />
+                  <img class="f1" src="img16.jpg" />
+                  <img class="f1" src="img17.jpg" />
+                  <img class="f1" src="img18.jpg" />
+                  <img class="f1" src="img19.jpg" />
+                  <img class="f1" src="img10.jpg" />
+                  <img class="f1" src="img11.jpg" />
+                  <img class="f1" src="im12.jpg" />
+                  <img class="f1" src="img13.jpg" />
+                  <img class="f1" src="img14.jpg" />
+                  <img class="f1" src="img15.jpg" />
+                  <img class="f1" src="img16.jpg" />
+                  <img class="f1" src="img9.jpg" />
+                  <img class="f1" src="img10.jpg" />
+                  <img class="f1" src="img11.jpg" />
+                  <img class="f1" src="img17.jpg" />
+                  <img class="f1" src="img18.jpg" />
+                  <img class="f1" src="img19.jpg" />
+                  <img class="f1" src="img20.jpg" />
+                  <img class="f1" src="img21.jpg" />
+                  <img class="f1" src="img22.jpg" />
+                  <img class="f1" src="img23.jpg" />
+                  <img class="f1" src="img24.jpg" />
+                  <img class="f1" src="img25.jpg" />
+                  <img class="f1" src="img26.jpg" />
+                  <img class="f1" src="img27.jpg" />
+                  <img class="f1" src="img28.jpg" />
+                  <img class="f1" src="img29.jpg" />
+                  <img class="f1" src="img30.jpg" />
+ 
+                  <img class="f2" src="img31.jpg" />
+                  <img class="f2" src="img32.jpg" />
+                  <img class="f2" src="img33.jpg" />
+                  <img class="f2" src="img34.jpg" />
+                  <img class="f2" src="img35.jpg" />
+                  <img class="f2" src="img36.jpg" />
+                  <img class="f2" src="img37.jpg" />
+                  <img class="f2" src="img38.jpg" />
+                  <img class="f2" src="img39.jpg" />
+                  <img class="f2" src="img40.jpg" />
+                  <img class="f2" src="img41.jpg" />
+                  <img class="f2" src="img42.jpg" />
+                  <img class="f2" src="img43.jpg" />
+                  <img class="f2" src="img44.jpg" />
+                  <img class="f2" src="img45.jpg" />
+                  <img class="f2" src="img46.jpg" />
+                  <img class="f2" src="img47.jpg" />
+                  <img class="f2" src="img48.jpg" />
+                  <img class="f2" src="img49.jpg" />
+                  <img class="f2" src="img50.jpg" />
+                  <img class="f2" src="img53.jpg" />
+                  <img class="f2" src="img19.jpg" />
+                  <img class="f2" src="img20.jpg" />
+                  <img class="f2" src="img21.jpg" />
+                  <img class="f2" src="img22.jpg" />
+                  <img class="f2" src="img23.jpg" />
+                  <img class="f2" src="img24.jpg" />
+                  <img class="f2" src="img6.jpg" />
+                  <img class="f2" src="img7.jpg" />
+                  <img class="f2" src="img8.jpg" />
+                  <img class="f2" src="img5.jpg" />
+                  <img class="f2" src="img7.jpg" />
+                  <img class="f2" src="img8.jpg" />
+ 
+                  <img class="f3" src="img1.jpg" />
+                  <img class="f3" src="img2.jpg" />
+                  <img class="f3" src="img11.jpg" />
+                  <img class="f3" src="img12.jpg" />
+                  <img class="f3" src="img25.jpg" />
+                  <img class="f3" src="img26.jpg" />
+                  <img class="f3" src="img27.jpg" />
+                  <img class="f3" src="img3.jpg" />
+                  <img class="f3" src="img4.jpg" />
+                  <img class="f3" src="img34.jpg" />
+                  <img class="f3" src="img16.jpg" />
+                  <img class="f3" src="img17.jpg" />
+                  <img class="f3" src="img18.jpg" />
+                  <img class="f3" src="img10.jpg" />
+                  <img class="f3" src="img28.jpg" />
+                  <img class="f3" src="img29.jpg" />
+                  <img class="f3" src="img30.jpg" />
+                  <img class="f3" src="img13.jpg" />
+                  <img class="f3" src="img19.jpg" />
+                  <img class="f3" src="img20.jpg" />
+                  <img class="f3" src="img21.jpg" />
+                  <img class="f3" src="img22.jpg" />
+                  <img class="f3" src="img23.jpg" />
+                  <img class="f3" src="img24.jpg" />
+                  <img class="f3" src="img9.jpg" />
+                  <img class="f3" src="img14.jpg" />
+                  <img class="f3" src="img15.jpg" />
+                  <img class="f3" src="img25.jpg" />
+                  <img class="f3" src="img7.jpg" />
+                  <img class="f3" src="img28.jpg" />
+                  <img class="f3" src="img19.jpg" />
+                  <img class="f3" src="img7.jpg" />
+                  <img class="f3" src="img8.jpg" />
+ 
+ 
+                  <p></p>
+            </div>
+      </div>
+      <!--  src="JS/photo.js" -->
+      <script type="text/javascript">
+            var oImg = document.getElementsByClassName('f1')
+            var oImg2 = document.getElementsByClassName('f2')
+            var oImg3 = document.getElementsByClassName('f3')
+            var len = oImg.length;
+            console.log(len)
+            var deg = 360 / len;
+ 
+            var oWrap = document.getElementById("imgwrap");
+            // var oWrap=document.querySelector('.wrap');
+ 
+            window.onload = function () {
+                  Array.prototype.forEach.call(oImg, function (ele, index, self) {
+                        ele.style.transform = "rotateY(" + deg * index + "deg) translateZ(645.75px)";
+                        ele.style.transition = "1s " + (len - index) * 0.1 + "s";
+ 
+                  });
+                  Array.prototype.forEach.call(oImg2, function (ele, index, self) {
+                        ele.style.transform = "rotateY(" + deg * index + "deg) translateZ(645.75px) translateY(240px)";
+                        ele.style.transition = "1s " + (len - index) * 0.1 + "s";
+ 
+                  });
+                  Array.prototype.forEach.call(oImg3, function (ele, index, self) {
+                        ele.style.transform = "rotateY(" + deg * index + "deg) translateZ(645.75px) translateY(480px)";
+                        //过渡时间1s
+                        ele.style.transition = "1s " + (len - index) * 0.1 + "s";
+ 
+                  });
+                  // Array.prototype.forEach.call(oImg, function (ele, index, self) {
+                  //       ele.style.transform = "rotateY(" + deg * index + "deg) translateZ(350px)";
+                  //       ele.style.transition = "1s " + (len - index) * 0.1 + "s";
+ 
+                  // });
+ 
+            }
+            var newX, newY, lastX, lastY, minusX, minusY, rotX = -20, rotY = 0;
+ 
+            document.onmousedown = function (e) {
+                  lastX = e.clientX;
+                  lastY = e.clientY;
+ 
+                  this.onmousemove = function (e) {
+                        newX = e.clientX;
+                        newY = e.clientY;
+                        minusX = newX - lastX;
+                        minusY = newY - lastY;
+ 
+                        rotX -= minusY * 0.2;
+                        rotY += minusX * 0.1;
+                        oWrap.style.transform = "rotateX(" + rotX + "deg) rotateY(" + rotY + "deg)";
+                        lastX = newX;
+                        lastY = newY;
+ 
+                  }
+                  this.onmouseup = function (e) {
+                        this.onmousemove = null;
+                  }
+            }
+ 
+      </script>
+</body>
+ 
+</html>
